@@ -210,7 +210,7 @@
     </statement>
     <statement name="SUBMARKET">
       <block type="trade_definition_tradeoptions" id="HMIlo0r6-QlO5^*5i/J.">
-        <mutation xmlns="http://www.w3.org/1999/xhtml" has_first_barrier="false" has_second_barrier="false" has_prediction="true"></mutation>
+        <mutation xmlns="http://www.w3.org/1999/xhtml" has_first_barrier="false" has_second_barrier="false" has_prediction=" has_timer_true"></mutation>
         <field name="DURATIONTYPE_LIST">t</field>
         <value name="DURATION">
           <shadow type="math_number" id="]FN(UnR1Co7CFmEL2ls`">
@@ -229,20 +229,20 @@
           </block>
         </value>
         <value name="PREDICTION">
-          <shadow type="math_number" id="+-FoNMS==Mvtng(IA~Y8">
+          <shadow type="math_number" id="+-FoNMS==Mvtng(IA~Y2">
             <field name="NUM">0</field>
           </shadow>
-          <block type="logic_ternary" id="iS`g3FA@nxKyH$rXMM:A">
+          <block type="logic_ternary" id="iS`g1FA@nxKyH$rXMM:A">
             <value name="IF">
               <block type="logic_compare" id="kS^:H?Y~~O7lt[didJ=;">
                 <field name="OP">EQ</field>
                 <value name="A">
-                  <block type="variables_get" id="X#/G86+{D[qil91}rTB=">
+                  <block type="variables_get" id="X#/G43+{D[qil31}rTB=">
                     <field name="VAR" id="Tj:Erd(X$U?X!wAp6EEK">Loss</field>
                   </block>
                 </value>
                 <value name="B">
-                  <block type="math_number" id="ZaOxmqyly:y(Kv#~9_~$">
+                  <block type="math_number" id="ZaOxmqyly:y(Kv#~3_~$">
                     <field name="NUM">0</field>
                   </block>
                 </value>
@@ -259,7 +259,7 @@
                   <block type="logic_compare" id="D}UpOk%Dc}h0?A|(w[q)">
                     <field name="OP">GTE</field>
                     <value name="A">
-                      <block type="variables_get" id="U|;0%|W0x%lPc%C,.;52">
+                      <block type="variables_get" id="U|;0%|W0x%lPc%C,.;5">
                         <field name="VAR" id="Tj:Erd(X$U?X!wAp6EEK">Loss</field>
                       </block>
                     </value>
@@ -335,7 +335,7 @@
       </block>
     </statement>
   </block>
-  <block type="after_purchase" id="(pt)6`s!Ks4V%p_PH~Ek" x="2489" y="110">
+  <block type="after_purchase" id="(pt)6`s!Ks2V%p_PH~Ek" x="24" y="117">
     <statement name="AFTERPURCHASE_STACK">
       <block type="controls_if" id="_;J)jMt679%DxXoN$E,#">
         <mutation xmlns="http://www.w3.org/1999/xhtml" elseif="1"></mutation>
@@ -576,7 +576,7 @@
                     <statement name="TIMEOUTSTACK">
                       <block type="trade_again" id="[oF,)?8;ddokajv:lq_2"></block>
                     </statement>
-                    <value name="SECONDS">
+                    <value name="0SECONDS">
                       <block type="math_number" id="zai^ZcGC)6#WX#t|J1JN">
                         <field name="NUM">3</field>
                       </block>
@@ -663,7 +663,7 @@
                                         <field name="TEXT"></field>
                                       </shadow>
                                       <block type="text" id="0cwRB2=5]QZd%MaU;)?L" collapsed="true">
-                                        <field name="TEXT">Congratulations!!HØMECØMING|| Take Profit Reached!!  $</field>
+                                        <field name="TEXT">Congratulations!!HØMECØMING|| Take Profit Reached🇦🇱🐵🐵!!  $</field>
                                       </block>
                                     </value>
                                     <next>
